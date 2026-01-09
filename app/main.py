@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import users, messages, websocket
+from app.routes import users, messages
 
 from app.routes.websocket import router as websocket_router
 
